@@ -4,7 +4,7 @@ from telegram import Bot,Update
 from telegram.ext import CommandHandler, MessageHandler, Updater,ConversationHandler, Filters 
 
 
-bot_token = '5701526571:AAHj4t7GN4T6uTdjjKnp1LBvUYtgFaaygpg'
+bot_token = TOKEN
 bot = Bot(bot_token)
 updater = Updater(bot_token, use_context=True)
 dispatcher = updater.dispatcher
